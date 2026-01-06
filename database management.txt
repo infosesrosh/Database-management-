@@ -1,0 +1,37 @@
+SQL>create table student 
+(
+hno number(10),
+sname varchar2(10),
+course varchar2(10),
+ph number(10),
+city varchar2(10),
+pincode number(10),
+);
+
+
+if you want to table shows 
+select * from table student;
+ 
+
+insert into student value (900,'max','msc',+190,'los Angeles',00501);
+insert into student value (901,'pu','msc',+7955,'moscow',191028);
+insert into student value (902,'benz','msc',+97245,'jerusalem',912254);
+insert into student value (903,'xi','msc',+8625,'beijing',100000);
+insert into student value (904,'liston','msc',+0110,'huntin',10010);
+
+
+example of update
+SQL>update table student set city= zetex hno=904;
+
+example of deleate 
+SQL>delete from student hno 700
+
+
+if you want aggregate funcations :
+sum(): SQL>select sum (    ) from table name;
+avg(): SQL>select avg (    ) from table name;
+max(): SQL>select max (    ) from table name;
+min(): SQL>select min (    ) from table name;
+if you add value,number and you create table name add that place 
+  
+
